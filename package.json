@@ -1,0 +1,30 @@
+{
+  "name": "@jeffreyschwartz/buster-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --nolazy --inspect-brk=5858 ./node_modules/@4awpawz/buster/cli.js bust",
+    "bust": "buster bust",
+    "restore": "buster restore",
+    "bust-long": "buster bust -m -i 'media/**/*.jpg' media/**/*.jpg:1:project/media,./index.html:2:project,css/test.css:3:project/css,script/test.js:3:project/script",
+    "restore-long": "buster restore -m -i 'media/**/*.jpg' media/**/*.jpg:1:project/media,./index.html:2:project,css/test.css:3:project/css,script/test.js:3:project/script"
+  },
+  "keywords": [buster, cache],
+  "author": "",
+  "license": "ISC",
+  "buster": {
+    "directives": [
+      "media/sub/alphabet-arts-and-crafts-blog-459688-worked.jpg:1:media/sub",
+      "media/sub/black-and-white-close-up-cobweb-worked.jpg:1:media/sub",
+      "media/cyclone-roller-coaster-coney-island-worked.jpg:1:media",
+      "media/tatoo-handshake-worked.jpg:1:media",
+      "./index.html:2:.",
+      "css/test.css:3:css",
+      "script/test.js:3:script"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

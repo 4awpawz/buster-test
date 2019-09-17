@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-size: 100%;
+    line-height: 1.5
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bgi {
+    background-color: #979494;
+    background-origin: border-box;
+    background-size: cover;
+    background-position: center center;
+    background-clip: border-box;
+    width: 50vw;
+    height: 50vh;
+}
+
+.bgi1 {
+    background-image: url("../media/sub/alphabet-arts-and-crafts-blog-459688-worked.jpg");
+}
+
+.bgi2 {
+    background-image: url("../media/sub/black-and-white-close-up-cobweb-worked.jpg");
+}
+
+.bgi3 {
+    background-image: url("../media/cyclone-roller-coaster-coney-island-worked.jpg");
+}
+
+.bgi4 {
+    background-image: url("../media/tatoo-handshake-worked.jpg");
+}

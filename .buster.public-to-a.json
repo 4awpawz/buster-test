@@ -1,0 +1,13 @@
+{
+    "options": {
+        "manifest": true,
+        "verbose": true,
+        "safeMode": false
+    },
+    "directives": [
+        "public/media/**/*.jpg:1:a/media",
+        "public/index.html:2:a",
+        "public/css/test.css:3:a/css",
+        "public/script/test.js:3:a/script"
+    ]
+}
