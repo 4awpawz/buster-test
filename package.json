@@ -11,7 +11,7 @@
     "bust-long": "buster bust -m -i 'media/**/*.jpg' media/**/*.jpg:1:project/media,./index.html:2:project,css/test.css:3:project/css,script/test.js:3:project/script",
     "restore-long": "buster restore -m -i 'media/**/*.jpg' media/**/*.jpg:1:project/media,./index.html:2:project,css/test.css:3:project/css,script/test.js:3:project/script"
   },
-  "keywords": [buster, cache],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "buster": {
